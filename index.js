@@ -32,7 +32,7 @@ function handdleClick() {
       audio.src = "sounds/crash.mp3";
       audio.play();
       break;
-    case "l":
+    case "i":
       audio.src = "sounds/kick-bass.mp3";
       audio.play();
       break;
@@ -45,7 +45,7 @@ document.addEventListener("keydown", function(event) {
 
 function handdleKeydown(key) {
   buttonAnimation(key);
-  switch (event.key) {
+  switch (key) {
     case "w":
       audio.src = "sounds/tom-1.mp3"; 
       audio.play();
